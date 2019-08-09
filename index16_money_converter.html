@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Web Developer Blog</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Пример Конвектор валют -->
+        <h1>Money Converter</h1>
+        <p>
+            <label for="">$</label>
+            <input type="number" id="inputdol" placeholder="$" oninput="moneyConverter(this.value)" onchange="
+            moneyConverter(this.value)">
+        </p>
+        <p>UAH: <span id="outputuan"></span></p>
+
+
+    </div><!-- /.container -->
+
+<script src="js/lesson16_money_converter.js"></script>
+</body>
+</html>
